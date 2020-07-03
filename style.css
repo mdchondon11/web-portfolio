@@ -1,18 +1,65 @@
 body{
-    font-family: font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+
 }
-.name-highlight{
-    color: orange;
+h2{
+    font-size: 40px;
+}
+.orange-highlight {
+    color: orange; 
 }
 .half-width{
     width:40%;
     float:left;
-    margin: 5%;
+    margin-left: 5%;
     padding-left: 2%;
 }
 .half-width img{
-    width:100;
+    width:100%;
+}
+.top-banner{
+    
+   
+    background-image: url("images/top-banner.png");
+   
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+  background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: wheat;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");}
+
+.single-experience{
+    box-shadow: 10px 10px 40px  gray;
+    border-radius: 5PX;
+    height: 80%;
+}
+.experience-area{
+    background-image: url("web development\projects\web portfolio\images\exp-bg.png");
+
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
